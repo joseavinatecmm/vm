@@ -1,11 +1,12 @@
 /*
  * =====================================================================================
  *
- *       Filename:  ADD.hpp
+ *       Filename:  MOV.hpp
  *
  *    Description: Interface 
  *
  *        Version:  1.0
+ *        Created:  09/21/2021 12:29:20
  *       Revision:  none
  *       Compiler:  gcc
  *
@@ -15,23 +16,25 @@
  * =====================================================================================
  */
 
-#ifndef ADD_HPP
-#define ADD_HPP
 #include "Instruction.hpp"
+
+#ifndef MOV_HPP
+#define MOV_HPP
 #include <string>
 
 using namespace std;
-class ADD: public Instruction 
+
+class MOV: public Instruction
 {
 	private:
-		int operand1;
-		int operand2;
+		string regist;
+		string address;
 	public:
-		ADD();
-		ADD(string theName, int theCode, int theLength, int theOperand1, int theOperand2);
-		int getOperand1();
-		int getOperand2();
-
-
+		MOV();
+		MOV(string name, short int code,short int length, string theRegister, string theAddress);
+		void display();
 };
+
 #endif
+
+

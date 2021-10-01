@@ -3,9 +3,10 @@
  *
  *       Filename:  Instruction.hpp
  *
- *    Description: Interface 
+ *    Description: Instruction 
  *
  *        Version:  1.0
+ *        Created:  09/21/2021 11:33:56
  *       Revision:  none
  *       Compiler:  gcc
  *
@@ -15,21 +16,34 @@
  * =====================================================================================
  */
 
+
 #ifndef INSTRUCTION_HPP
 #define INSTRUCTION_HPP
+
 #include <string>
 
 using namespace std;
 class Instruction 
 {
-	private:
+	private: 
 		string name;
-		int code;
-
+		short int code;
+		short int length;
 	public:
 		Instruction();
-		Instruction(string theName, int theCode);
-		string getName();
+		Instruction(string theName, short int theCode, short int theLength);
+		void display();
 		int getCode();
+		string getName();
 };
 #endif
+
+
+
+
+
+
+
+
+
+

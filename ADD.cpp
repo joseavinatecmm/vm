@@ -19,7 +19,7 @@
 
 ADD::ADD(){}
 
-ADD::ADD(string theName, int theCode, int theOperand1, int theOperand2): Instruction(theName, theCode)
+ADD::ADD(string theName, int theCode, int theLength, int theOperand1, int theOperand2): Instruction(theName, theCode, theLength)
 {
 	operand1 = theOperand1;
 	operand2 = theOperand2;

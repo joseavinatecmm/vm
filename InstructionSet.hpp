@@ -1,11 +1,12 @@
 /*
  * =====================================================================================
  *
- *       Filename:  ADD.hpp
+ *       Filename:  InstructionSet.hpp
  *
- *    Description: Interface 
+ *    Description: Implementation 
  *
  *        Version:  1.0
+ *        Created:  09/21/2021 12:05:32
  *       Revision:  none
  *       Compiler:  gcc
  *
@@ -15,23 +16,31 @@
  * =====================================================================================
  */
 
-#ifndef ADD_HPP
-#define ADD_HPP
+#ifndef INSTRUCTIONSET_HPP
+#define INSTRUCTIONSET_HPP
+
 #include "Instruction.hpp"
-#include <string>
 
 using namespace std;
-class ADD: public Instruction 
+
+class InstructionSet
 {
 	private:
-		int operand1;
-		int operand2;
+		Instruction set[10];
+		short int index;
+	
 	public:
-		ADD();
-		ADD(string theName, int theCode, int theLength, int theOperand1, int theOperand2);
-		int getOperand1();
-		int getOperand2();
-
-
+		InstructionSet();
+		void addInstruction(Instruction theInstruction);
+		Instruction getInstruction(short int pos);
 };
+
 #endif
+
+
+
+
+
+
+
+

@@ -18,16 +18,37 @@
 #include <iostream>
 
 #include "Instruction.hpp"
+#include "InstructionSet.hpp"
 #include "Program.hpp"
+#include "MOV.hpp"
 #include "CU.hpp"
 #include "ADD.hpp"
 
 using namespace std;
 int main(void)
 {
-	Instruction start("START", 50);
-	Instruction stop("STOP", 51);
-	ADD add("ADD", 80, 10, 12);
+        // Instruction
+	Instruction i1;
+	Instruction i2("MOV", 50, 3);
+
+	//i1.display();
+	//i2.display();
+
+	// Instruction Set
+	InstructionSet instructionSet;
+	instructionSet.addInstruction(i2);
+	i1 = instructionSet.getInstruction(0);
+	
+	i1.display();
+
+        //MOV
+        MOV move("MOVE", 70, 3, "AL","6");
+	move.display();
+
+
+	Instruction start("START", 50, 1);
+	Instruction stop("STOP", 51, 1);
+	ADD add("ADD", 80, 3, 10, 12);
 	
 	Program program;
 
@@ -58,7 +79,6 @@ int main(void)
 	auto* ptr_add = static_cast<ADD*>(instructions[1]);
        	cout << ptr_add->getOperand1() << endl;	
         cout << ptr_add->getOperand2() << endl;	
-
 
        	return EXIT_SUCCESS;
 }
