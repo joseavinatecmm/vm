@@ -15,6 +15,7 @@
  * =====================================================================================
  */
 #include "CU.hpp"
+#include "ADD.hpp"
 
 
 CU::CU()
@@ -32,9 +33,10 @@ Instruction CU::fetch(Program theProgram, int thePosition)
 	return theProgram.getInstruction(thePosition);
 }
 
-int CU::decode(Instruction theInstruction)
+int CU::decode(Instruction* theInstruction)
 {
-	return theInstruction.getCode();
+
+	return theInstruction->getCode();
 }
 
 void CU::execute(int theCode)

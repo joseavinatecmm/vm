@@ -20,6 +20,8 @@
 #include <string>
 #include <iostream>
 #include "Instruction.hpp"
+#include "ALU.hpp"
+#include "ADD.hpp"
 #include "Program.hpp"
 
 using namespace std;
@@ -32,7 +34,7 @@ class CU
 		CU();
 		CU(string theStatus);
 		Instruction fetch(Program theProgram, int thePosition);
-		int decode(Instruction theInstruction);
+		int decode(Instruction* theInstruction);
 		void execute(int theCode);
 };
 #endif
