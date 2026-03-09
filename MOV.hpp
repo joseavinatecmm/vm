@@ -1,21 +1,3 @@
-/*
- * =====================================================================================
- *
- *       Filename:  MOV.hpp
- *
- *    Description: Interface 
- *
- *        Version:  1.0
- *        Created:  09/21/2021 12:29:20
- *       Revision:  none
- *       Compiler:  gcc
- *
- *         Author:  YOUR NAME (), 
- *   Organization:  
- *
- * =====================================================================================
- */
-
 #include "Instruction.hpp"
 
 #ifndef MOV_HPP

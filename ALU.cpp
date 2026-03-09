@@ -1,20 +1,3 @@
-/*
- * =====================================================================================
- *
- *       Filename:  ALU.cpp
- *
- *    Description: Implementation 
- *
- *        Version:  1.0
- *        Created:  09/30/2021 21:20:10
- *       Revision:  none
- *       Compiler:  gcc
- *
- *         Author:  YOUR NAME (), 
- *   Organization:  
- *
- * =====================================================================================
- */
 #include "ALU.hpp"
 
 ALU::ALU() {}

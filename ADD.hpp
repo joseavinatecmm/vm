@@ -1,20 +1,3 @@
-/*
- * =====================================================================================
- *
- *       Filename:  ADD.hpp
- *
- *    Description: Interface 
- *
- *        Version:  1.0
- *       Revision:  none
- *       Compiler:  gcc
- *
- *         Author:  YOUR NAME (), 
- *   Organization:  
- *
- * =====================================================================================
- */
-
 #ifndef ADD_HPP
 #define ADD_HPP
 #include "Instruction.hpp"

@@ -1,19 +1,3 @@
-/*
- * =====================================================================================
- *
- *       Filename:  CU.cpp
- *
- *    Description: Implementation 
- *
- *        Version:  1.0
- *       Revision:  none
- *       Compiler:  gcc
- *
- *         Author:  J. Aviña
- *   Organization:  
- *
- * =====================================================================================
- */
 #include "CU.hpp"
 #include "ADD.hpp"
 

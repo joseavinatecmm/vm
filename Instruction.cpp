@@ -1,21 +1,3 @@
-/*
- * =====================================================================================
- *
- *       Filename:  Instruction.cpp
- *
- *    Description: Implementation 
- *
- *        Version:  1.0
- *        Created:  09/21/2021 11:39:49
- *       Revision:  none
- *       Compiler:  gcc
- *
- *         Author:  YOUR NAME (), 
- *   Organization:  
- *
- * =====================================================================================
- */
-
 #include "Instruction.hpp"
 #include <iostream>
 

@@ -1,20 +1,3 @@
-/*
- * =====================================================================================
- *
- *       Filename:  MOV.cpp
- *
- *    Description: Implementation 
- *
- *        Version:  1.0
- *        Created:  09/21/2021 12:40:21
- *       Revision:  none
- *       Compiler:  gcc
- *
- *         Author:  YOUR NAME (), 
- *   Organization:  
- *
- * =====================================================================================
- */
 #include "MOV.hpp"
 #include <iostream>
 

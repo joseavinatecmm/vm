@@ -1,20 +1,3 @@
-/*
- * =====================================================================================
- *
- *       Filename:  Instruction.hpp
- *
- *    Description: Interface 
- *
- *        Version:  1.0
- *       Revision:  none
- *       Compiler:  gcc
- *
- *         Author:  YOUR NAME (), 
- *   Organization:  
- *
- * =====================================================================================
- */
-
 #ifndef CU_HPP
 #define CU_HPP
 #include <string>

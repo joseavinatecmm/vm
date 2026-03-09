@@ -1,19 +1,3 @@
-/*
- * =====================================================================================
- *
- *       Filename:  Program.hpp
- *
- *    Description: Interface 
- *
- *        Version:  1.0
- *       Revision:  none
- *       Compiler:  gcc
- *
- *         Author:  YOUR NAME (), 
- *   Organization:  
- *
- * =====================================================================================
- */
 
 #ifndef PROGRAM_HPP
 #define PROGRAM_HPP
